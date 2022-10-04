@@ -4,7 +4,6 @@ public class Palindrome {
             String str = args[i].toLowerCase();
             System.out.println(isPalindrome(str));
         }
-        System.out.println("Конец программы");
     }
 
     //метод создает обратное слово
