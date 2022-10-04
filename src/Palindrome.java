@@ -1,11 +1,10 @@
-import java.util.Locale;
-
 public class Palindrome {
     public static void main(String[] args) {
         for (int i=0; i < args.length; i++) {
             String str = args[i].toLowerCase();
             System.out.println(isPalindrome(str));
         }
+        System.out.println("Конец программы");
     }
 
     //метод создает обратное слово
